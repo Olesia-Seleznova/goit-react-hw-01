@@ -1,0 +1,35 @@
+.table {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #c5bdbd;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tr {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  background-color: #000000d2;
+}
+
+.th {
+  padding: 15px;
+  border: 1px solid aliceblue;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #6259597b;
+}
+
+.tableRow:nth-child(odd) {
+  background-color: white;
+}
+
+.td {
+  padding: 10px;
+}
