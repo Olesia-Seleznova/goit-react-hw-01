@@ -23,15 +23,15 @@ export default function Profile({
       <ul className={css.ul}>
         <li className={css.li}>
           <span className={css.span}>Followers</span>
-          <span className={clsx(css.span, css.guantiti)}>{followers}</span>
+          <span className={clsx(css.span, css.quantiti)}>{followers}</span>
         </li>
         <li className={css.li}>
           <span className={css.span}>Views</span>
-          <span className={clsx(css.span, css.guantiti)}>{views}</span>
+          <span className={clsx(css.span, css.quantiti)}>{views}</span>
         </li>
         <li className={css.li}>
           <span className={css.span}>Likes</span>
-          <span className={clsx(css.span, css.guantiti)}>{likes}</span>
+          <span className={clsx(css.span, css.quantiti)}>{likes}</span>
         </li>
       </ul>
     </div>
